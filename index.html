@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="header">
+        <h3>EVENT@ON</h3>
+        <div class="headerlink">
+            <a href="">OVERVIEW</a>
+            <a href="register.html">REGISTER</a>
+            <a href="">EVENTS</a>
+            <a href="">CONTACT</a>
+        </div>
+    </div>
+
+    <div class="countdown-container">
+        <div class="title">
+            <h1>2024 <br> City Marathon Extravaganza</h1>
+
+        </div>
+        <div class="centered">
+            <div class="event-info">
+                <h5>AUG</h5>
+                <h4>15</h4>
+                <div id="event-info">
+                    <p><strong>Start:</strong> 6:00 AM</p>
+                    <h6>THURSDAY</h6>
+                    <p><strong>End:</strong> 3:00 PM</p>
+                </div>
+
+            </div>
+            <div class="timer">
+                <div class="time" id="days"></div>
+                <div class="time" id="hours"></div>
+                <div class="time" id="minutes"></div>
+                <div class="time" id="seconds"></div>
+            </div>
+            <div class="location-price">
+                <p><i class="material-icons">place</i> New Delhi</p>
+                <p>From <strong>&#8360 399.0</strong></p>
+                <a href="register.html"> <button class="tickets-btn">REGISTER</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="showcase1">
+        <h2>Event Overview
+            <p id="showcase1p">Join us for the 2024 City Marathon Extravaganza, a spectacular event bringing together runners from all walks of life. Whether you're a seasoned marathoner or a first-time participant, this event promises an unforgettable experience filled
+                with excitement, camaraderie, and the thrill of the race. The marathon will take place in the heart of New Delhi, offering a scenic route that showcases the best of our beautiful city.</p>
+        </h2>
+
+        <img src="showcase1.jpg" alt="">
+    </div>
+
+    <div class="earlybird">
+        <hr>
+        <h2>Take advantage of our early bird registration and enjoy discounted rates for the New Delhi Marathon 2024! Register by August 14, 2024, to secure your spot at the best prices: ₹1,200 for the Full Marathon, ₹900 for the Half Marathon, ₹600 for the
+            10K Run, and ₹400 for the 5K Fun Run. This limited-time offer not only provides substantial savings but also ensures your participation in this highly anticipated event, which has sold out every year. Don’t miss out register now and guarantee
+            your place in the race before the early bird period ends!</h2>
+        <hr>
+    </div>
+
+    <div class="container">
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('photos')">Photos</button>
+            <button class="tab" onclick="showTab('videos')">Videos</button>
+        </div>
+
+        <div class="gallery" id="photos">
+            <img src="Snapinsta.app_390976342_686429823163028_7151958600304183784_n_1080.jpg" alt="Photo 1">
+            <img src="Snapinsta.app_391334292_893749692115457_7616953661178872220_n_1080.jpg" alt="Photo 2">
+            <img src="Snapinsta.app_394094298_1245992649377865_1792642861944219453_n_1080.jpg" alt="Photo 3">
+            <img class="img1" src="Snapinsta.app_404014782_774054961401743_7571393923179976747_n_1080.jpg" alt="Photo 4">
+            <img class="img1" src="Snapinsta.app_439486945_845874830918430_1606368431860330758_n_1080.jpg" alt="Photo 5">
+            <img src="Snapinsta.app_387746803_3581558588787618_846115047547804725_n_1080.jpg" alt="Photo 6">
+        </div>
+
+        <div class="gallery hidden" id="videos">
+            <!--           
+            <img src="https://via.placeholder.com/300" alt="Video 1">
+            <img src="https://via.placeholder.com/300" alt="Video 2">
+            <img src="https://via.placeholder.com/300" alt="Video 3"> -->
+        </div>
+
+    </div>
+
+    <div class="event-container">
+        <h2>More Events From This Organizer</h2>
+        <div class="event-cards">
+            <div class="event-card">
+                <div class="event-image" style="background-image: url('mumb.webp');">
+                    <span class="event-label">Marathon</span>
+                </div>
+                <div class="event-details">
+                    <div class="event-date">
+                        <span class="date-day">SEP</span>
+                        <span class="date-number">26</span>
+                    </div>
+                    <div class="event-info">
+                        <h3>2024 Mumbai Runner Up</h3>
+                        <p class="event-address">Mumbai<br>Maharashtra</p>
+                        <p class="event-price">From <span>&#8377 699.00</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <div class="event-image" style="background-image: url('peakpx.jpg');">
+                    <span class="event-label">Concert</span>
+                </div>
+                <div class="event-details">
+                    <div class="event-date">
+                        <span class="date-day">DEC</span>
+                        <span class="date-number">16</span>
+                    </div>
+                    <div class="event-info">
+                        <h3>Arijit Singh's Live</h3>
+                        <p class="event-address">Pragati Maidan<br>Delhi</p>
+                        <p class="event-price">From <span>&#8377 2999.00</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <div class="event-image" style="background-image: url('pv.jpg');">
+                    <span class="event-label">New Year 2025</span>
+                </div>
+                <div class="event-details">
+                    <div class="event-date">
+                        <span class="date-day">JAN</span>
+                        <span class="date-number">01</span>
+                    </div>
+                    <div class="event-info">
+                        <h3>Parmish Verma & DG IMMORTALS Live</h3>
+                        <p class="event-address">Cyber Hub<br>Gurugram</p>
+                        <p class="event-price">From <span>&#8377 999.00</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 
+    <div class="map-container">
+        <h2>2024 Delhi Marathon Extravaganza
+            <br>
+            <p>Address: New Delhi, India</p>
+        </h2>
+        <img src="Location_map_India_New_Delhi_EN.svg" alt="Map of New Delhi" usemap="#delhimap">
+        <map name="delhimap">
+            <!-- <area shape="rect" coords="100,50,200,150" alt="Start Point" href="start-point.html">
+            <area shape="circle" coords="250,200,50" alt="Checkpoint 1" href="checkpoint1.html">
+            <area shape="rect" coords="300,300,400,400" alt="Finish Line" href="finish-line.html"> -->
+    <!-- </map>
+    </div> -->-->
+
+    <div class="footer">
+        <p>&#169 2024 EVENT@ON</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
+
+</html>
